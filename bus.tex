@@ -1,13 +1,16 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 \usepackage[russian]{babel}
-\usepackage[a4paper, hmargin={4cm, 2.5cm}, vmargin={1.5cm, 2.0cm}]{geometry}
+\usepackage[a4paper, hmargin={3.5cm, 2.0cm}, vmargin={1.5cm, 2.0cm}]{geometry}
 \usepackage[bookmarks=true,unicode=true,pdfstartview={FitH}]{hyperref}
 \usepackage{enumitem}
 
 \setlength\parindent{0pt}
 \setlength\parskip{0.15in}
 \setlist{topsep=0pt}
+
+\let\stdsection\section
+\renewcommand\section{\newpage\stdsection}
 
 \begin{document}
 
